@@ -1,0 +1,31 @@
+.navi{
+    background-color: rgb(131, 131, 233);
+ border-radius: 30px;
+}
+.navi li{
+    float:left;
+    list-style: none;
+    margin: 5px 5px;
+}
+.navi ul {
+    overflow: auto;
+}
+.navi li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+.search{
+    float:right;
+    color:white;
+    padding: 12px,75px;
+}
+.navi input{
+    border:2px solid black;
+    border-radius: 14px;
+    padding:3px 17px;
+    width:120px;
+}
+.navbar li a:hover{
+            color: red
+        }
