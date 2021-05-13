@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CSS selector</title>
-       <style>
-           /*comment in css*/
-           /* # for id . for class*/
-           p{
-               background-color: rgb(209, 209, 129);
-               height: 30px;
-               width: 400px;
-               border-top: 6px solid red;
-               border-bottom: 5px solid blue;
-               font-size: 30px;
-           }
-           #para{
-               color:blue;
-               background-color: brown;
-               font-family: Verdana, Geneva, Tahoma, sans-serif;
-               font-size: 15px;
-           }
-           .bgBlue{
-               color: rgb(248, 9, 248);
-               font-family: cursive;
-           }
-           footer,span{
-               color: rgb(226, 170, 164);
-               font-family: cursive;
-               font-size: 20px;
-               font-weight: 800;
-               font-style: italic;
-           }
-       </style>
-    </head>
-    <body>
-        <p>random paragraph</p>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS selector</title>
+    <style>
+        /*comment in css*/
+        /* # for id . for class*/
+        p {
+            background-color: rgb(209, 209, 129);
+            height: 30px;
+            width: 400px;
+            border-top: 6px solid red;
+            border-bottom: 5px solid blue;
+            font-size: 30px;
+        }
+
+        #para {
+            color: blue;
+            background-color: brown;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+
+        .bgBlue {
+            color: rgb(248, 9, 248);
+            font-family: cursive;
+        }
+
+        footer,
+        span {
+            color: rgb(226, 170, 164);
+            font-family: cursive;
+            font-size: 20px;
+            font-weight: 800;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <p>random paragraph</p>
     <p class="red bgBlue">this is first paragraph</p>
     <p id="para">2nd paragarph</p>
     <footer>this is footer</footer>
-    
+    <p>Random text</p>
+
     <span>this is span</span>
-    </body>
+</body>
+
 </html>
