@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:white;
+  
+}
+.stoptext{
+    display:inline;
+    text-align:center;
+    font-size:200%;
+}
+#stopwatch{
+     display: block;
+    /* background-color: black; */
+    text-align: center;
+    font-size: 100px;
+      line-height: 0.1;
+    margin-left: 32%;
+    margin-right: 31%;
+    padding: 6%;
+}
+
+#buttons{
+     position: absolute;
+     top: 45%;
+     margin-left: 41.4%;
+     /* transform: translate(-51.6%, -45%); */
+    /* text-align: center; */
+    /* background-color: black; */
+}
+#buttons li{
+    display: inline;
+    padding-left: 10px;
+}
